@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: -2.3em 0 7em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  width: 89vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+  width: 90%;
+  background-color: #efefef;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+  position: relative;
+  bottom: 45px;
+  left: 30px;
+}
+
+form input::placeholder {
+  width: 15em;
+  margin: 3px;
+  height: 2em;
+  color: #414141;
+}
+
+form .btn {
+  margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  position: relative;
+  bottom: 30px;
+
+}
+
+.container-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1em;
+  position: relative;
+  bottom: 33px;
+}
+
+.container-data h6 {
+  text-align: center;
+}
+
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+  width: 13px;
+  background-color: #414141;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #414141;
+}

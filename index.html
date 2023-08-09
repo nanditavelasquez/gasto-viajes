@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastos Viaje</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <link rel="shortcut icon" href="img/viaje.png" type="x-icon">
+</head>
+
+<body>
+  <nav class="navbar z-depth-4" style="background-color: #273746;position: relative;bottom: 5px;">
+    <h2>Gastos</h2>
+  </nav>
+
+  <div class="main">
+    <form id="vacationCalc">
+      <input type="text" placeholder="Destino" id="destiny" required>
+      <input type="number" placeholder="Presupuesto" id="budget" required>
+      <input type="number" placeholder="Alojamiento" id="acomodation" required>
+      <input type="number" placeholder="Transporte " id="transport" required>
+      <input type="number" placeholder="Comida" id="food" required>
+      <input type="submit" value="Calcular" class="btn z-depth-4" style="background-color: #273746;">
+    </form>
+  </div>
+
+  <div class="container">
+    <div class="icons">
+      <a href="https://www.flaticon.es/icono-gratis/avion_7893962" class="view link-icon-detail" title="avión"
+        data-id="7893962" data-src="?term=avion&amp;page=1&amp;position=5&amp;origin=search">
+        <img src="https://cdn-icons-png.flaticon.com/128/7893/7893962.png"
+          data-src="https://cdn-icons-png.flaticon.com/128/7893/7893962.png" alt="avión " title="avión " width="57"
+          height="57" class="lzy lazyload--done" srcset="https://cdn-icons-png.flaticon.com/128/7893/7893962.png 4x">
+      </a>
+      <a href="https://www.flaticon.es/icono-gratis/billetera_600271" class="view link-icon-detail"
+        title="billetera" data-id="600271" data-src="?term=billetera&amp;page=1&amp;position=11&amp;origin=search">
+        <img src="https://cdn-icons-png.flaticon.com/128/600/600271.png"
+          data-src="https://cdn-icons-png.flaticon.com/128/600/600271.png" alt="billetera " title="billetera "
+          width="50" height="50" class="lzy lazyload--done"
+          srcset="https://cdn-icons-png.flaticon.com/128/600/600271.png 4x">
+      </a>
+      <a href="https://www.flaticon.es/icono-gratis/dinero-en-efectivo_2488749" class="view link-icon-detail"
+        title="dinero en efectivo" data-id="2488749"
+        data-src="?term=efectivo&amp;page=1&amp;position=2&amp;origin=search">
+        <img src="https://cdn-icons-png.flaticon.com/128/2488/2488749.png"
+          data-src="https://cdn-icons-png.flaticon.com/128/2488/2488749.png" alt="dinero en efectivo "
+          title="dinero en efectivo " width="50" height="50" class="lzy lazyload--done"
+          srcset="https://cdn-icons-png.flaticon.com/128/2488/2488749.png 4x">
+      </a>
+    </div>
+
+    <div class="data">
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
