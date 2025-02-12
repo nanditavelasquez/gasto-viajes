@@ -1,7 +1,6 @@
 # Calculadora de Gastos de Viaje
 
 <div align="center">
-<h3> Complementa todos los campos y luego calcula</h3>
    <img src="img/gasto_viaje1.jpg" width="534" height="551">
 </div>
 
